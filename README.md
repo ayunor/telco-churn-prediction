@@ -13,3 +13,15 @@ b) Eksplorasi Data (EDA): Menganalisis distribusi variabel dan hubungan antar va
 c) Pra-pemrosesan Data: Mengubah variabel kategorikal menjadi numerik dan melakukan scaling pada fitur numerik.
 d) Pembangunan Model Prediktif: Menggunakan algoritma Random Forest Classifier untuk memprediksi churn.
 e) Evaluasi Model: Menilai kinerja model menggunakan metrik seperti akurasi, presisi, recall, dan f1-score, serta menganalisis confusion matrix dan feature importance.
+
+4. Kesimpulan dan Rekomendasi Bisnis
+Proyek ini berhasil membangun model prediksi churn dengan akurasi yang cukup baik dan mengidentifikasi faktor-faktor kunci yang berkontribusi terhadap churn. Pelanggan dengan biaya bulanan tinggi, total biaya yang lebih rendah (mungkin karena baru berlangganan), tenure yang singkat, dan kontrak bulanan memiliki kemungkinan churn yang lebih tinggi.
+
+Rekomendasi Bisnis:
+1) Program Retensi untuk Pelanggan Baru/Jangka Pendek: Fokus pada pelanggan dengan tenure singkat dan kontrak bulanan. Tawarkan insentif untuk beralih ke kontrak jangka panjang.
+2) Evaluasi Struktur Harga: Tinjau kembali paket layanan dengan biaya bulanan tinggi, terutama jika ada keluhan pelanggan atau penawaran kompetitor yang lebih menarik.
+3) Analisis Metode Pembayaran: Selidiki lebih lanjut mengapa metode pembayaran tertentu berkorelasi dengan churn yang lebih tinggi. Mungkin ada masalah dalam proses pembayaran atau preferensi pelanggan.
+4) Peningkatan Layanan Pelanggan: Karena faktor-faktor seperti OnlineSecurity dan TechSupport juga muncul sebagai faktor penting (meskipun tidak di top 5), peningkatan kualitas layanan dan dukungan teknis dapat membantu mengurangi churn.
+Dengan menerapkan rekomendasi ini, perusahaan telekomunikasi dapat meningkatkan strategi retensi pelanggan dan mengurangi tingkat churn.
+
+
